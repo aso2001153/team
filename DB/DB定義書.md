@@ -28,7 +28,7 @@
 |和名|属性名|型|PK|NN|FK|
 |----|-----|--|--|--|--|
 |顧客コード|customer_id|varchar(50)|〇|〇||
-|パスワード|pass|varchar(50)|〇|〇|〇|
+|パスワード|pass|varchar(8~16)|〇|〇|〇|
 |氏名|name|varchar(50)||〇||
 |住所|adress|varchar(50)||〇||
 |電話番号|tel|varchar(50)||〇||
