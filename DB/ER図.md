@@ -69,7 +69,6 @@ entity "お気に入りマスタ" as m_favorite <m_category> <<M,MASTER_MARK_COL
 + customaer_id[PK][NN]
 + item_code[PK][NN]
 --
-category_id
 del_flag
 
 }
@@ -94,7 +93,6 @@ purchase }o--o| m_customers
  d_purchase_detail }|--|| purchase
  m_items }o--|| m_category
  m_favorite }o-ri- m_customers
- m_favorite }o-le- m_category
  m_favorite }o-do- m_items
 
 
@@ -102,6 +100,7 @@ purchase }o--o| m_customers
 
 @enduml
 ```
+
 
 
 
