@@ -20,7 +20,7 @@
 |和名|属性名|型|PK|NN|FK|
 |----|-----|--|--|--|--|
 |顧客コード|customer_id|varchar(50)|〇|〇||
-|パスワード|pass|varchar(50)|〇|〇|〇|
+|パスワード|pass|varchar(8~16)|〇|〇|〇|
 |氏名|name|varchar(50)||〇||
 |住所|adress|varchar(50)||〇||
 |電話番号|tel|varchar(50)||〇||
@@ -39,7 +39,6 @@
 |和名|属性名|型|PK|NN|FK|
 |----|-----|--|--|--|--|
 |顧客コード|customer_id|varchar(50)|〇|〇|〇|
-|カテゴリID|category_id|int(11)||〇|〇|
 |商品コード|item_code|int(11)|〇|〇|〇|
 |削除フラグ|del_date|int(11)||||
 
@@ -55,3 +54,4 @@
 |商品詳細説明|detail|varchar(500)||||
 |削除フラグ|del_flag|int(11)||||
 |登録日|reg_date|date||〇||
+
